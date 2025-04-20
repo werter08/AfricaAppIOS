@@ -9,7 +9,6 @@ import SwiftUI
 
 struct MainView: View {
     var body: some View {
-        Text("MainView")
         TabView {
             Tab("Browse", systemImage: "square.grid.2x2"){
                 ContentView()
