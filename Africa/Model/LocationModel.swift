@@ -1,0 +1,6 @@
+ Image("logo")
+                        .resizable()
+                        .scaledToFit()
+                        .frame(width: 32, height: 32)
+                        .padding(.top, 6)
+                        .padding(.horizontal, 8)
