@@ -15,7 +15,9 @@ struct VideoListView: View {
         NavigationView {
             List {
                 ForEach(videos) { item in
-                    VideoListItemView(video: item)
+                    NavigationLink(destination: {VideoPlayerView(video: item)}) {
+                        VideoListItemView(video: item) 
+                    }
                 }
             }
             .navigationBarTitleDisplayMode(.large)

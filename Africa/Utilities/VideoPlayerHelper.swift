@@ -8,7 +8,7 @@
 import Foundation
 import AVKit
 
-enum videoPleyer {
+enum VideoHelper {
     static func play(fileName: String, fileType: String) -> AVPlayer?{
                 
         guard let url = Bundle.main.url(forResource: fileName, withExtension: fileType) else {
